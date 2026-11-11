@@ -1,0 +1,20 @@
+
+.card {
+  aspect-ratio: 1 / 1;
+  background-color: #252d3b;
+  border: 2px solid #39465a;
+  border-radius: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 3.5rem;
+  font-weight: bold;
+  color: #60a5fa;
+  cursor: pointer;
+  transition: background-color 0.2s, border-color 0.2s;
+}
+
+.card:hover {
+  background-color: #303c50;
+  border-color: #60a5fa;
+}
